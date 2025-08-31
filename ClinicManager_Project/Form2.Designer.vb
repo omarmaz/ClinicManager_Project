@@ -32,6 +32,7 @@ Partial Class Form2
         ' 
         ' Panel1
         ' 
+        Panel1.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Panel1.BackColor = Color.Transparent
         Panel1.Controls.Add(btnexit)
         Panel1.Controls.Add(btnview)
